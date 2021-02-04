@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.logo img {
+    height: 100px;
+    width: 220px;
+    padding-left: 30px;
+}
+
+header {
+    height: 70vh;
+    width: 100%;
+    background: #0099ff;
+}
+
+.mainhead {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 630px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+}
+
+nav :hover {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+     
+}
+
+.bg {
+    display: flex;
+    justify-content: space-between;
+}
+.right img {
+    padding-right: 160px;
+    height: 610px;
+    width: 610px;
+}
+
+.left {
+    margin-left: 65px;
+    margin-top: 218px;
+    
+}
+
+.left h1 {
+    font-size: 55px;
+    color: white;
+}
+
+.left h2 {
+    color: #cccfdb;
+    font-size: 22px;
+    animation-name: testanime;
+    animation-iteration-count:infinite;
+    animation-duration: 0.3s;
+}
+
+@keyframes testanime {
+    from {color: #cccfdb;}
+    to {color: yellow;}
+}
+
+
+.first-feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -180px;
+
+}
+
+
+
+.right-sec p{
+    font-family: 'Andika New Basic', sans-serif;
+    font-size: 35px;
+}
+
+.second-feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-feature p {
+    font-family: 'Andika New Basic', sans-serif;
+    font-size: 35px;
+}
+
+.play-link {
+    height: 80px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #0099ff;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: #fff;
+    margin-bottom: -10px;
+}
+
+footer img {
+    height: 70px;
+    align-self: center;
+    
+}
+
+.footertxt {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.footertxt p {
+    text-align: center;
+}
+
+#notice {
+    font-size: 20px;
+}
+
+#Copyright {
+    padding-right: 10px;
+}
+
+#Credit {
+    padding-left: 10px;
+}
+
+#footer-wave {
+    margin-bottom: -10px;
+    margin-top: -210px;
+}
+
+.foot {
+    margin-bottom: 30px;
+
+}
